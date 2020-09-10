@@ -1,0 +1,30 @@
+.bar-box{
+    flex-direction: row;
+    height:80px;
+    width: 750px;
+    // align-items: center;
+}
+.blue-bar-box{
+    background-image: linear-gradient(to bottom, #003E5C, #003F5E);
+}
+.bar-item{
+    width: 80px;
+    align-items: center;
+    flex-direction: row;
+    margin-left:32px;
+}
+.last-bar{
+    margin-right:32px;
+}
+.bar-text{
+    text-align: center;
+    color:#fff;
+}
+.active-bar{
+    font-size: 40px; 
+    opacity: 1;
+}
+.common-bar{
+    opacity: 0.5;
+    font-size: 32px; 
+}

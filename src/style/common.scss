@@ -1,0 +1,185 @@
+// 布局
+.flex-row{
+  flex-direction: row;
+}
+.flex-col{
+  flex-direction: column;
+}
+.flex-align{
+  align-items: center;
+}
+.flex-row-center{
+  flex-direction: row;
+  align-items: center;
+}
+.flex-row-between{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-between{
+  justify-content: space-between;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-center {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex-col-center{
+  align-items: center;
+  justify-content: center;
+}
+.flex1{
+  flex: 1;
+}
+.w100{
+  width: 750px;
+}
+// 几行省略号
+.line1{
+  lines:1;
+  text-overflow:ellipsis;
+}
+.line2{
+  lines:2;
+  text-overflow:ellipsis;
+}
+.line3{
+  lines:3;
+  text-overflow:ellipsis;
+}
+.line4{
+  lines:4;
+  text-overflow:ellipsis;
+}
+.pos-full{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+// 背景颜色
+.bg-fff{
+  background-color: #fff;
+}
+// 文字
+.pingfang{
+  font-family: PingFangSC-Regular;
+}
+.text-center{
+  text-align: center;
+}
+.fz20{
+  font-size: 20px;
+}
+.fz22{
+  font-size: 22px;
+}
+.fz24{
+  font-size: 24px;
+}
+.fz26{
+  font-size: 26px;
+}
+.fz28{
+  font-size: 28px;
+}
+.fz30{
+  font-size: 30px;
+}
+.fz32{
+  font-size: 32px;
+}
+.fz34{
+  font-size: 34px;
+}
+.fz36{
+  font-size: 36px;
+}
+.fz38{
+  font-size: 38px;
+}
+.fz40{
+  font-size: 40px;
+}
+.cl-333{
+  color: #333333;
+}
+.cl-fff{
+  color: #ffffff;
+}
+.cl-b6{
+  color: #b6b6b6;
+}
+// 间距
+.mb10{
+  margin-bottom: 10px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt30{
+  margin-top: 30px;
+}
+.ml10{
+  margin-left: 10px;
+}
+// 边框
+.border1{
+  border-top-style:solid;
+  border-bottom-style:solid;
+  border-left-style:solid;
+  border-right-style:solid;
+  border-top-width:1px;
+  border-bottom-width:1px;
+  border-left-width:1px;
+  border-right-width:1px;
+}
+.border2{
+  border-top-style:solid;
+  border-bottom-style:solid;
+  border-left-style:solid;
+  border-right-style:solid;
+  border-top-width:2px;
+  border-bottom-width:2px;
+  border-left-width:2px;
+  border-right-width:2px;
+}
+.border3{
+  border-top-style:solid;
+  border-bottom-style:solid;
+  border-left-style:solid;
+  border-right-style:solid;
+  border-top-width:3px;
+  border-bottom-width:3px;
+  border-left-width:3px;
+  border-right-width:3px;
+}
+.dividing-line {
+  height: 20px;
+  width: 750px;
+  background-color: #f9f9f9;
+}
+.border-line {
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  border-bottom-color:  #EEEEEE;
+  margin-left:32px;
+  margin-right:32px;
+}
+// iphoneX
+.x-top{
+  padding-top: 96px;
+}

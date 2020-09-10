@@ -1,0 +1,44 @@
+ <!-- 上标题 下播放器 -->
+<template>
+  <div class="wrapper">
+         <text class="title">{{data.title}}</text>
+        <bottom3 :data="data"></bottom3>
+    </div>
+</template>
+
+<script>
+import Bottom3 from '../bottom/Bottom3'
+export default {
+  props: ['data'],
+  name: 'List21',
+  components: {
+    Bottom3
+  },
+  data () {
+    return {
+    }
+  },
+  methods: {
+  },
+  computed: {
+  }
+}
+</script>
+
+<style scoped lang="scss">
+.wrapper {
+    background-color: #ffffff;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top:28px;
+    padding-bottom:32px;
+}
+.title{
+    font-size: 34px;
+    color: #333333;
+    lines:2;
+    text-overflow:ellipsis;
+    width: 686px;
+    margin-top:12px;
+}
+</style>

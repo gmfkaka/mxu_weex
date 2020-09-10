@@ -1,0 +1,43 @@
+.head-box{
+    padding:0 32px;
+    width: 750px;
+    height:120px;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #003E5C, #003F5E);
+    position: relative;
+}
+.weather-box{
+    position: absolute;
+    height:90px;
+    top:24px;
+    left:32px;
+}
+.weather-img{
+    width: 42px;
+    height:42px;
+    margin-right:12px;  
+}
+.weather-text{
+    color:#fff;
+    font-size: 24px;
+}
+.logo-img{
+    width: 192px;
+    height:70px;
+    margin-top: 10px;
+}
+.search-box{
+    position: absolute;
+    top:24px;
+    right:32px;
+    height:90px;
+    justify-content: center;
+}
+.search-img{
+    width: 40px;
+    height:40px;
+    
+    
+}

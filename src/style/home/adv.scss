@@ -1,0 +1,55 @@
+.adv-box{
+    margin:20px 0;
+    padding:24px 32px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    height:112px;
+}
+.adv-img{
+    width: 64px;
+    height:64px;
+    margin-right:34px;
+}
+.adv-scroll{
+    position: relative;
+    height:26px;
+    flex:1;
+    overflow: hidden;
+}
+.adv-scroll-item{
+    margin-bottom:4px;
+    position: absolute;
+    top:0;
+    left:0px;
+    right:0;
+    height:26px;
+    flex-direction: row;
+    align-items: center;
+}
+.adv-text{
+    height:26px;
+    width: 546px;
+    lines:1;
+    font-size: 26px;
+    text-overflow:ellipsis;
+    color:#4F4F4F;
+    line-height: 26px;
+}
+.adv-circle-box{
+    position: absolute;
+    right:0;
+    width: 12px;
+    height:64px;
+    align-items: center;
+    flex-direction: row;
+}
+.adv-circle{
+    background-color: #E02929;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    width: 12px;
+    height:12px;
+}
